@@ -1,0 +1,102 @@
+{
+  "cmi": {
+    "completion_status": "passed",
+    "progress_measure": 1.0,
+    "session_time": "00:40:00",
+    "score": {
+      "raw": 88,
+      "max": 100
+    }
+  },
+  "detailed_progress": {
+    "structure": [
+      {
+        "id": "starter_quiz",
+        "title": "Starter Quiz",
+        "type": "quiz",
+        "completed": "passed",
+        "timespent": 30,
+        "progress": 100,
+        "duration": 30,
+        "nbtry": 1,
+        "score": 10,
+        "scoremax": 10,
+        "questions": [
+          {
+            "id": "Q.7.0.1",
+            "title": "Question de positionnement ?",
+            "type": "unique",
+            "completed": "passed",
+            "choices": [
+              {
+                "id": "1",
+                "text": "Réponse 1",
+                "isCorrect": true
+              },
+              {
+                "id": "2",
+                "text": "Réponse 2",
+                "isCorrect": false
+              }
+            ],
+            "userAnswers": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chapter_1",
+        "title": "Chapitre 1",
+        "type": "chapter",
+        "completed": "incomplete",
+        "timespent": 300,
+        "progress": 50,
+        "score": 0,
+        "scoremax": 100,
+        "nbtry": 1,
+        "level": 1,
+        "children": [
+          {
+            "id": "sequence_1",
+            "title": "Séquence 1",
+            "type": "sequence",
+            "completed": "incomplete",
+            "timespent": 150,
+            "progress": 30,
+            "score": 0,
+            "scoremax": 50,
+            "nbtry": 1,
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": "end_quiz",
+        "title": "End Quiz",
+        "type": "quiz",
+        "completed": "passed",
+        "timespent": 25,
+        "progress": 100,
+        "duration": 25,
+        "score": 8,
+        "scoremax": 10,
+        "questions": [
+          {
+            "id": "Q.7.0.2",
+            "title": "Question d’évaluation ?",
+            "type": "open",
+            "completed": "passed",
+            "userAnswers": [
+              "Texte libre par l'utilisateur car type=open."
+            ]
+          }
+        ]
+      }
+    ],
+    "lastConsulted": {
+      "lastComponentId": "912da5e8-f29c-4c65-993f-5ac95bb885d7",
+      "lastSceneId": "67c7175e7df1980057cee41c"
+    }
+  }
+}

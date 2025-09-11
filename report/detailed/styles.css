@@ -1,0 +1,55 @@
+#detailed-progress-report {
+    font-size: 1rem;
+}
+#detailed-progress-report .gap-0 {
+    gap: 0;
+}
+#detailed-progress-report .gap-1 {
+    gap: 0.25rem; /* 4px */
+}
+#detailed-progress-report .gap-2 {
+    gap: 0.5rem; /* 8px */
+}
+#detailed-progress-report .gap-3 {
+    gap: 1rem; /* 16px */
+}
+#detailed-progress-report .gap-4 {
+    gap: 1.5rem; /* 24px */
+}
+#detailed-progress-report .gap-5 {
+    gap: 3rem; /* 48px */
+}
+#detailed-progress-report .completion-indicator-container .completion-indicator {
+    margin: auto;
+    font-size: 0.8rem;
+}
+#detailed-progress-report .list-group-item.scene, .list-group-item.sequence {
+    border-style: dashed !important;
+}
+#detailed-progress-report .list-group-item.quiz {
+    border-color: #BA606A !important;
+}
+#detailed-progress-report .list-group-item.component {
+    border-width: 0 0 1px 0 !important;
+    border-radius: 0 !important;
+}
+#detailed-progress-report .asset-container img.img-thumbnail {
+    width: 200px;
+    padding: 0;
+}
+#detailed-report-header .container-fluid.tertiary-navigation {
+    width: auto;
+    padding-top: 0;
+}
+#detailed-report-header .container-fluid .navitem {
+    margin-bottom: 0;
+}
+@media print {
+    body#page-mod-deffinum-report #detailed-report-header,
+    body#page-mod-deffinum-report .summary-cards .progress,
+    body#page-mod-deffinum-report #page-footer,
+    body#page-mod-deffinum-report #page-footer-frontpage,
+    body#page-mod-deffinum-report #local-accessibility-buttoncontainer {
+        display: none !important;
+    }
+}

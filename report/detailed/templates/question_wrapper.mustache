@@ -1,0 +1,22 @@
+<hr class="my-3 border-top" role="presentation" aria-hidden="true">
+<div class="mb-3">
+    {{> deffinumreport_detailed/question_header }}
+    {{> deffinumreport_detailed/asset }}
+
+    <div class="small text-muted mb-2">
+        <em>{{type}}</em> – <span>{{#str}} status, deffinumreport_detailed {{/str}}:</span> {{str_completed}}
+    </div>
+
+    {{#hasChoices}}
+        <div class="d-flex align-items-center">
+            {{#choices}}{{> deffinumreport_detailed/choice_box }}{{/choices}}
+        </div>
+    {{/hasChoices}}
+
+    {{#userAnswers_display}}
+        <div class="mt-2">
+            <strong>{{#str}} user_answers, deffinumreport_detailed {{/str}}:</strong> {{userAnswers_display}}
+        </div>
+    {{/userAnswers_display}}
+
+</div>

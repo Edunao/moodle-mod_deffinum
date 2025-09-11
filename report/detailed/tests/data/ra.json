@@ -1,0 +1,295 @@
+{
+  "cmi": {
+    "completion_status": "incomplete",
+    "progress_measure": 0.75,
+    "session_time": "00:28:05",
+    "score": {
+      "raw": 60,
+      "max": 100
+    }
+  },
+  "detailed_progress": {
+    "structure": [
+      {
+        "id": "chapter_ra_intro",
+        "type": "chapter",
+        "title": "RA – Introduction",
+        "completed": "passed",
+        "progress": 100,
+        "timespent": 700,
+        "children": [
+          {
+            "id": "seq_ra_basics",
+            "type": "sequence",
+            "title": "Séquence – Bases de la RA",
+            "completed": "passed",
+            "progress": 100,
+            "timespent": 500,
+            "children": [
+              {
+                "id": "quiz_afc19a50",
+                "type": "quiz",
+                "title": "Quiz – RA Basics",
+                "completed": "passed",
+                "progress": 100,
+                "timespent": 300,
+                "nbtry": 1,
+                "score": 4,
+                "scoremax": 4,
+                "questions": [
+                  {
+                    "id": "q_1594c617",
+                    "type": "unique",
+                    "title": "Quelle planète est connue comme la planète rouge ?",
+                    "completed": "passed",
+                    "userAnswers": [
+                      "mars"
+                    ],
+                    "choices": [
+                      {
+                        "id": "terre",
+                        "text": "Terre",
+                        "isCorrect": false
+                      },
+                      {
+                        "id": "mars",
+                        "text": "Mars",
+                        "isCorrect": true
+                      },
+                      {
+                        "id": "venus",
+                        "text": "Vénus",
+                        "isCorrect": false
+                      },
+                      {
+                        "id": "jupiter",
+                        "text": "Jupiter",
+                        "isCorrect": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "q_bf24bc8a",
+                    "type": "multiple",
+                    "title": "Sélectionne les formats d’image courants (plusieurs choix)",
+                    "completed": "passed",
+                    "userAnswers": [
+                      "png",
+                      "jpeg"
+                    ],
+                    "choices": [
+                      {
+                        "id": "mp4",
+                        "text": "MP4",
+                        "isCorrect": false
+                      },
+                      {
+                        "id": "png",
+                        "text": "PNG",
+                        "isCorrect": true
+                      },
+                      {
+                        "id": "wav",
+                        "text": "WAV",
+                        "isCorrect": false
+                      },
+                      {
+                        "id": "jpeg",
+                        "text": "JPEG",
+                        "isCorrect": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "q_96a0b60e",
+                    "type": "open",
+                    "title": "Nomme le langage de balisage utilisé pour créer des pages web.",
+                    "completed": "passed",
+                    "userAnswers": [
+                      "HTML"
+                    ]
+                  },
+                  {
+                    "id": "q_7824120d",
+                    "type": "order",
+                    "title": "Classe ces unités de mesure du plus petit au plus grand.",
+                    "completed": "passed",
+                    "userAnswers": [
+                      "mm",
+                      "cm",
+                      "m",
+                      "km"
+                    ],
+                    "choices": [
+                      {
+                        "id": "mm",
+                        "text": "Millimètre",
+                        "correctOrder": 1
+                      },
+                      {
+                        "id": "cm",
+                        "text": "Centimètre",
+                        "correctOrder": 2
+                      },
+                      {
+                        "id": "m",
+                        "text": "Mètre",
+                        "correctOrder": 3
+                      },
+                      {
+                        "id": "km",
+                        "text": "Kilomètre",
+                        "correctOrder": 4
+                      }
+                    ]
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "chapter_ra_project",
+        "type": "chapter",
+        "title": "RA – Projet guidé",
+        "completed": "incomplete",
+        "progress": 50,
+        "timespent": 600,
+        "children": [
+          {
+            "id": "seq_ra_sdk",
+            "type": "sequence",
+            "title": "Séquence – Utiliser un SDK RA",
+            "completed": "incomplete",
+            "progress": 50,
+            "timespent": 400,
+            "children": [
+              {
+                "id": "quiz_8e963236",
+                "type": "quiz",
+                "title": "Quiz – SDK RA",
+                "completed": "passed",
+                "progress": 100,
+                "timespent": 300,
+                "nbtry": 1,
+                "score": 4,
+                "scoremax": 4,
+                "questions": [
+                  {
+                    "id": "q_376422bf",
+                    "type": "unique",
+                    "title": "Quelle planète est connue comme la planète rouge ?",
+                    "completed": "passed",
+                    "userAnswers": [
+                      "mars"
+                    ],
+                    "choices": [
+                      {
+                        "id": "terre",
+                        "text": "Terre",
+                        "isCorrect": false
+                      },
+                      {
+                        "id": "mars",
+                        "text": "Mars",
+                        "isCorrect": true
+                      },
+                      {
+                        "id": "venus",
+                        "text": "Vénus",
+                        "isCorrect": false
+                      },
+                      {
+                        "id": "jupiter",
+                        "text": "Jupiter",
+                        "isCorrect": false
+                      }
+                    ]
+                  },
+                  {
+                    "id": "q_20b1f48f",
+                    "type": "multiple",
+                    "title": "Sélectionne les formats d’image courants (plusieurs choix)",
+                    "completed": "passed",
+                    "userAnswers": [
+                      "png",
+                      "jpeg"
+                    ],
+                    "choices": [
+                      {
+                        "id": "mp4",
+                        "text": "MP4",
+                        "isCorrect": false
+                      },
+                      {
+                        "id": "png",
+                        "text": "PNG",
+                        "isCorrect": true
+                      },
+                      {
+                        "id": "wav",
+                        "text": "WAV",
+                        "isCorrect": false
+                      },
+                      {
+                        "id": "jpeg",
+                        "text": "JPEG",
+                        "isCorrect": true
+                      }
+                    ]
+                  },
+                  {
+                    "id": "q_6ab88aa3",
+                    "type": "open",
+                    "title": "Nomme le langage de balisage utilisé pour créer des pages web.",
+                    "completed": "passed",
+                    "userAnswers": [
+                      "HTML"
+                    ]
+                  },
+                  {
+                    "id": "q_807ae49e",
+                    "type": "order",
+                    "title": "Classe ces unités de mesure du plus petit au plus grand.",
+                    "completed": "passed",
+                    "userAnswers": [
+                      "mm",
+                      "cm",
+                      "m",
+                      "km"
+                    ],
+                    "choices": [
+                      {
+                        "id": "mm",
+                        "text": "Millimètre",
+                        "correctOrder": 1
+                      },
+                      {
+                        "id": "cm",
+                        "text": "Centimètre",
+                        "correctOrder": 2
+                      },
+                      {
+                        "id": "m",
+                        "text": "Mètre",
+                        "correctOrder": 3
+                      },
+                      {
+                        "id": "km",
+                        "text": "Kilomètre",
+                        "correctOrder": 4
+                      }
+                    ]
+                  }
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

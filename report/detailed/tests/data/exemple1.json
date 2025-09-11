@@ -1,0 +1,860 @@
+{
+  "cmi": {
+    "completion_status": "passed",
+    "progress_measure": 1.0,
+    "session_time": "00:40:00",
+    "score": {
+      "raw": 88,
+      "max": 100
+    }
+  },
+  "detailed_progress": {
+    "structure": [
+      {
+        "id": "67e671ca5087f198fa1f9a45",
+        "title": "Lien de l'image cassée",
+        "type": "scene",
+        "completed": "not attempted",
+        "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67e671ca5087f198fa1f9a45",
+        "children": [
+          {
+            "id": "9fcecac7-4922-4323-9570-0dd2ebf4f11c",
+            "title": "Composant image avec 404 sur l'image",
+            "type": "component",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67e671ca5087f198fa1f9a45?componentId=9fcecac7-4922-4323-9570-0dd2ebf4f11c",
+            "progress": 0
+          }
+        ],
+        "progress": 0,
+        "timespent": 550000
+      },
+      {
+        "id": "67c7175e7df1980057cee41c",
+        "title": "Avec orientation caméra",
+        "type": "scene",
+        "completed": "incomplete",
+        "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67c7175e7df1980057cee41c",
+        "children": [
+          {
+            "id": "fdf4b4dd-d519-4bdb-8705-c317fd93b488",
+            "title": "Déclancheur",
+            "type": "component",
+            "completed": "passed",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67c7175e7df1980057cee41c?componentId=fdf4b4dd-d519-4bdb-8705-c317fd93b488",
+            "progress": 100,
+            "timespent": 528
+          },
+          {
+            "id": "2229f004-371d-4186-8448-aa6a6ecce4f2",
+            "title": "Img1",
+            "type": "component",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67c7175e7df1980057cee41c?componentId=2229f004-371d-4186-8448-aa6a6ecce4f2",
+            "progress": 0
+          },
+          {
+            "id": "e766e147-52a3-4779-a0d3-0ff205412b36",
+            "title": "im2",
+            "type": "component",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67c7175e7df1980057cee41c?componentId=e766e147-52a3-4779-a0d3-0ff205412b36",
+            "progress": 0
+          },
+          {
+            "id": "912da5e8-f29c-4c65-993f-5ac95bb885d7",
+            "title": "Nouvelle image",
+            "type": "component",
+            "completed": "passed",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67c7175e7df1980057cee41c?componentId=912da5e8-f29c-4c65-993f-5ac95bb885d7",
+            "progress": 100,
+            "timespent": 0
+          }
+        ],
+        "progress": 50,
+        "timespent": 25528
+      },
+      {
+        "id": "67c712177df1980057cee414",
+        "title": "Groupe de scène",
+        "type": "scenesGroup",
+        "completed": "not attempted",
+        "children": [
+          {
+            "id": "67c7121e7df1980057cee415",
+            "title": "Sous groupe de scène",
+            "type": "scenesGroup",
+            "completed": "not attempted",
+            "children": [
+              {
+                "id": "67c712257df1980057cee416",
+                "title": "Sans photo 360",
+                "type": "scene",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67c712257df1980057cee416",
+                "children": [],
+                "progress": null,
+                "timespent": 0
+              }
+            ],
+            "progress": 0,
+            "timespent": 0
+          },
+          {
+            "id": "67c712377df1980057cee417",
+            "title": "Sous groupe de scène 2",
+            "type": "scenesGroup",
+            "completed": "not attempted",
+            "children": [
+              {
+                "id": "67c712457df1980057cee418",
+                "title": "Sans photo 360",
+                "type": "scene",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67c712457df1980057cee418",
+                "children": [],
+                "progress": null,
+                "timespent": 45000
+              }
+            ],
+            "progress": 0,
+            "timespent": 45000
+          }
+        ],
+        "progress": 0,
+        "timespent": 45000
+      },
+      {
+        "id": "67500c63012069ced1561481",
+        "title": "Photo 360",
+        "type": "scenesGroup",
+        "completed": "not attempted",
+        "children": [
+          {
+            "id": "67500cea012069ced1561485",
+            "title": "Sans photo 360",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500cea012069ced1561485",
+            "children": [],
+            "progress": null,
+            "timespent": 0
+          },
+          {
+            "id": "67500cf9012069ced1561486",
+            "title": "Avec photo 360 réelle",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500cf9012069ced1561486",
+            "children": [],
+            "progress": null,
+            "timespent": 0
+          },
+          {
+            "id": "67500c96012069ced1561484",
+            "title": "Avec photo 360 virtuelle",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500c96012069ced1561484",
+            "children": [],
+            "progress": null,
+            "timespent": 0
+          }
+        ],
+        "progress": 0,
+        "timespent": 0
+      },
+      {
+        "id": "67500c68012069ced1561482",
+        "title": "Intégration de média",
+        "type": "scenesGroup",
+        "completed": "incomplete",
+        "children": [
+          {
+            "id": "67500c59012069ced1561480",
+            "title": "Textes dans la scène",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500c59012069ced1561480",
+            "children": [
+              {
+                "id": "844bcf31-f17a-4ac3-a589-d7859ca31113",
+                "title": "Texte en blanc",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500c59012069ced1561480?componentId=844bcf31-f17a-4ac3-a589-d7859ca31113",
+                "progress": 0
+              },
+              {
+                "id": "dc985aa5-a377-485c-8dea-29a5c1bc1a5f",
+                "title": "Texte en couleur",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500c59012069ced1561480?componentId=dc985aa5-a377-485c-8dea-29a5c1bc1a5f",
+                "progress": 0
+              },
+              {
+                "id": "7fca5656-3a27-4e92-ad33-084c31eabf55",
+                "title": "Phrase sur une ligne",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500c59012069ced1561480?componentId=7fca5656-3a27-4e92-ad33-084c31eabf55",
+                "progress": 0
+              },
+              {
+                "id": "928c7630-001c-422c-afd9-0c49230dfa69",
+                "title": "Phrase sur 2 lignes",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500c59012069ced1561480?componentId=928c7630-001c-422c-afd9-0c49230dfa69",
+                "progress": 0
+              },
+              {
+                "id": "f7c39d3d-b78b-4840-857e-4304bf9a76c2",
+                "title": "Paragraphe sur plusieurs lignes",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500c59012069ced1561480?componentId=f7c39d3d-b78b-4840-857e-4304bf9a76c2",
+                "progress": 0
+              }
+            ],
+            "progress": 0,
+            "timespent": 5000
+          },
+          {
+            "id": "67500d0c012069ced1561487",
+            "title": "Images dans la scène",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d0c012069ced1561487",
+            "children": [
+              {
+                "id": "ad892be0-9e28-4916-b49e-5c4687d7c8d4",
+                "title": "Image classique",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d0c012069ced1561487?componentId=ad892be0-9e28-4916-b49e-5c4687d7c8d4",
+                "progress": 0
+              },
+              {
+                "id": "f451940d-9f62-4f2b-930c-6cd94e2c42a8",
+                "title": "Image avec transparence",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d0c012069ced1561487?componentId=f451940d-9f62-4f2b-930c-6cd94e2c42a8",
+                "progress": 0
+              },
+              {
+                "id": "2a279ca0-3bff-4716-b948-c9b6cf66b5b3",
+                "title": "Image avec transparence partielle",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d0c012069ced1561487?componentId=2a279ca0-3bff-4716-b948-c9b6cf66b5b3",
+                "progress": 0
+              }
+            ],
+            "progress": 0,
+            "timespent": 5000
+          },
+          {
+            "id": "67500d14012069ced1561488",
+            "title": "Musiques et effets sonores dans la scène",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d14012069ced1561488",
+            "children": [
+              {
+                "id": "7cdf8988-2d39-4654-8d75-8f6ad306590a",
+                "title": "Image qui déclenche un effet sonore",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d14012069ced1561488?componentId=7cdf8988-2d39-4654-8d75-8f6ad306590a",
+                "progress": 0
+              },
+              {
+                "id": "7e02c09b-fedb-49d4-90a8-9923135c5df7",
+                "title": "Image qui déclenche une musique d'ambiance",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d14012069ced1561488?componentId=7e02c09b-fedb-49d4-90a8-9923135c5df7",
+                "progress": 0
+              }
+            ],
+            "progress": 0,
+            "timespent": 0
+          },
+          {
+            "id": "67500d35012069ced1561489",
+            "title": "Vidéos dans la scène",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d35012069ced1561489",
+            "children": [
+              {
+                "id": "6d158052-c620-44f2-abc3-1c879d299ec8",
+                "title": "Vidéo intégrée",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d35012069ced1561489?componentId=6d158052-c620-44f2-abc3-1c879d299ec8",
+                "progress": 0
+              },
+              {
+                "id": "949b901a-b576-4c38-a005-0077158843cf",
+                "title": "Vidéo avec transparence : Avatar",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d35012069ced1561489?componentId=949b901a-b576-4c38-a005-0077158843cf",
+                "progress": 0
+              },
+              {
+                "id": "53bf1e9e-37f3-43a5-ab97-f3cd727f8aca",
+                "title": "Vidéo avec transparence : Avatar virtuel",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d35012069ced1561489?componentId=53bf1e9e-37f3-43a5-ab97-f3cd727f8aca",
+                "progress": 0
+              },
+              {
+                "id": "79b2b844-a3c3-41d7-8457-9cc904c95795",
+                "title": "Vidéo avec transparence",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d35012069ced1561489?componentId=79b2b844-a3c3-41d7-8457-9cc904c95795",
+                "progress": 0
+              }
+            ],
+            "progress": 0,
+            "timespent": 5000
+          },
+          {
+            "id": "67508ef6545bb697e5f8ec65",
+            "title": "3D dans la scène",
+            "type": "scene",
+            "completed": "incomplete",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67508ef6545bb697e5f8ec65",
+            "children": [
+              {
+                "id": "a7da67bb-65e3-4a0a-8319-de835f9d571a",
+                "title": "Modèle animé n°1",
+                "type": "component",
+                "completed": "passed",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67508ef6545bb697e5f8ec65?componentId=a7da67bb-65e3-4a0a-8319-de835f9d571a",
+                "progress": 100,
+                "timespent": 0
+              },
+              {
+                "id": "03345f8a-bf65-4303-99f1-6fd2b3a5ed9c",
+                "title": "Modèle",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67508ef6545bb697e5f8ec65?componentId=03345f8a-bf65-4303-99f1-6fd2b3a5ed9c",
+                "progress": 0
+              },
+              {
+                "id": "9a5e1b02-235d-46e2-a719-581552611a29",
+                "title": "Modèle animé n°2",
+                "type": "component",
+                "completed": "passed",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67508ef6545bb697e5f8ec65?componentId=9a5e1b02-235d-46e2-a719-581552611a29",
+                "progress": 100,
+                "timespent": 0
+              },
+              {
+                "id": "3e9e838c-c17a-4561-8696-9c04742ed082",
+                "title": "T-REX",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67508ef6545bb697e5f8ec65?componentId=3e9e838c-c17a-4561-8696-9c04742ed082",
+                "progress": 0
+              },
+              {
+                "id": "8948383a-69d2-4d3a-a56a-9b9cdd374984",
+                "title": "Nouvel objet 3D",
+                "type": "component",
+                "completed": "passed",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67508ef6545bb697e5f8ec65?componentId=8948383a-69d2-4d3a-a56a-9b9cdd374984",
+                "progress": 100,
+                "timespent": 0
+              }
+            ],
+            "progress": 60,
+            "timespent": 175000
+          }
+        ],
+        "progress": 12,
+        "timespent": 190000
+      },
+      {
+        "id": "67500c6e012069ced1561483",
+        "title": "Interactions",
+        "type": "scenesGroup",
+        "completed": "incomplete",
+        "children": [
+          {
+            "id": "67500d4a012069ced156148a",
+            "title": "Évènements possibles",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d4a012069ced156148a",
+            "children": [
+              {
+                "id": "e28dca7b-9aef-4828-9fc0-2af2f7eedf76",
+                "title": "À l'entrée de la souris",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d4a012069ced156148a?componentId=e28dca7b-9aef-4828-9fc0-2af2f7eedf76",
+                "progress": 0
+              },
+              {
+                "id": "82e2efc0-4f24-459a-b6c1-75cd2794c741",
+                "title": "À la sortie de la souris",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d4a012069ced156148a?componentId=82e2efc0-4f24-459a-b6c1-75cd2794c741",
+                "progress": 0
+              },
+              {
+                "id": "c2b0a524-e400-423d-bc44-e960b392c9e2",
+                "title": "Au clique",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d4a012069ced156148a?componentId=c2b0a524-e400-423d-bc44-e960b392c9e2",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "id": "67500d51012069ced156148b",
+            "title": "Ouvertures possibles",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d51012069ced156148b",
+            "children": [
+              {
+                "id": "a4888198-e49f-43f2-99dc-4cec41bac65b",
+                "title": "Nouvel Onglet",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d51012069ced156148b?componentId=a4888198-e49f-43f2-99dc-4cec41bac65b",
+                "progress": 0
+              },
+              {
+                "id": "dcf99d2a-d472-4890-a0da-def66ccdbc6f",
+                "title": "Fenêtre",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d51012069ced156148b?componentId=dcf99d2a-d472-4890-a0da-def66ccdbc6f",
+                "progress": 0
+              },
+              {
+                "id": "ff555736-1e81-4b1f-8428-f6ea0858deb3",
+                "title": "Même page",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d51012069ced156148b?componentId=ff555736-1e81-4b1f-8428-f6ea0858deb3",
+                "progress": 0
+              },
+              {
+                "id": "66d6d18f-5409-48e9-9755-67ba0362c1e2",
+                "title": "Nouvel Onglet (copie)",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d51012069ced156148b?componentId=66d6d18f-5409-48e9-9755-67ba0362c1e2",
+                "progress": 0
+              }
+            ]
+          },
+          {
+            "id": "67500d59012069ced156148c",
+            "title": "Ouverture possibles dans une fenêtre",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c",
+            "children": [
+              {
+                "id": "91c18d86-aca2-4858-94d1-13d8fa6ee43d",
+                "title": "Image",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=91c18d86-aca2-4858-94d1-13d8fa6ee43d",
+                "progress": 0
+              },
+              {
+                "id": "480c422f-e974-4189-9b30-a732aa22297f",
+                "title": "Image externe",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=480c422f-e974-4189-9b30-a732aa22297f",
+                "progress": 0
+              },
+              {
+                "id": "9d355c1e-412e-46e9-b131-27702294fe98",
+                "title": "Document PDF",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=9d355c1e-412e-46e9-b131-27702294fe98",
+                "progress": 0
+              },
+              {
+                "id": "8c5d8793-b9f6-469f-b959-2324e6e609e1",
+                "title": "Vidéo",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=8c5d8793-b9f6-469f-b959-2324e6e609e1",
+                "progress": 0
+              },
+              {
+                "id": "7670885e-18ca-42af-8473-efe0ae1ef3dc",
+                "title": "Vidéo Youtube",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=7670885e-18ca-42af-8473-efe0ae1ef3dc",
+                "progress": 0
+              },
+              {
+                "id": "c8e5152f-ec52-49cb-9ff9-2e2294783d58",
+                "title": "Site web",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=c8e5152f-ec52-49cb-9ff9-2e2294783d58",
+                "progress": 0
+              },
+              {
+                "id": "b122cb20-c421-40ab-8430-57ed401f610b",
+                "title": "Quizz",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=b122cb20-c421-40ab-8430-57ed401f610b",
+                "questions": [
+                  {
+                    "userAnswers": [],
+                    "choices": [
+                      {
+                        "id": "Choice_0",
+                        "isCorrect": true,
+                        "text": "Rouge"
+                      },
+                      {
+                        "id": "Choice_1",
+                        "isCorrect": false,
+                        "text": "Vert"
+                      },
+                      {
+                        "id": "Choice_2",
+                        "isCorrect": false,
+                        "text": "Bleu"
+                      }
+                    ],
+                    "id": "Question_0",
+                    "title": "Quel est ta couleur préféré ?",
+                    "type": "unique"
+                  }
+                ],
+                "score": 0,
+                "scoremax": 1,
+                "timespent": 0,
+                "progress": 0
+              },
+              {
+                "id": "0c440262-06df-460b-b520-0d659a89807a",
+                "title": "Learning app",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=0c440262-06df-460b-b520-0d659a89807a",
+                "progress": 0
+              },
+              {
+                "id": "224b773b-a354-4ca3-a68e-3ac5bc53678c",
+                "title": "Quizz avec images",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=224b773b-a354-4ca3-a68e-3ac5bc53678c",
+                "questions": [
+                  {
+                    "userAnswers": [],
+                    "choices": [
+                      {
+                        "id": "Choice_0",
+                        "isCorrect": true,
+                        "text": "Rouge"
+                      },
+                      {
+                        "id": "Choice_1",
+                        "isCorrect": false,
+                        "text": "Vert"
+                      },
+                      {
+                        "id": "Choice_2",
+                        "isCorrect": false,
+                        "text": "Bleu"
+                      }
+                    ],
+                    "id": "Question_0",
+                    "title": "Quel est ta couleur préféré ?",
+                    "type": "unique"
+                  }
+                ],
+                "score": 0,
+                "scoremax": 1,
+                "timespent": 0,
+                "progress": 0
+              },
+              {
+                "id": "4fdf7559-fdff-414a-8b55-d3c67bdb71e9",
+                "title": "Prezi",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67500d59012069ced156148c?componentId=4fdf7559-fdff-414a-8b55-d3c67bdb71e9",
+                "progress": 0
+              }
+            ],
+            "progress": 0,
+            "timespent": 0
+          },
+          {
+            "id": "67502d62012069ced15614a3",
+            "title": "Lire, pause",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d62012069ced15614a3",
+            "children": [
+              {
+                "id": "bbce9840-66f2-4486-be14-3282dd7495f9",
+                "title": "Lire / Pause Vidéo",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d62012069ced15614a3?componentId=bbce9840-66f2-4486-be14-3282dd7495f9",
+                "progress": 0
+              },
+              {
+                "id": "33dedab1-98fa-4e64-800c-2d86e6537e0d",
+                "title": "Lire / Pause Son",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d62012069ced15614a3?componentId=33dedab1-98fa-4e64-800c-2d86e6537e0d",
+                "progress": 0
+              },
+              {
+                "id": "04326696-3c7e-4de4-a283-5d65af9dd269",
+                "title": "Lire Vidéo",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d62012069ced15614a3?componentId=04326696-3c7e-4de4-a283-5d65af9dd269",
+                "progress": 0
+              },
+              {
+                "id": "0cc64e0b-bca2-40a8-aab5-e22ddc261b60",
+                "title": "Pause Vidéo",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d62012069ced15614a3?componentId=0cc64e0b-bca2-40a8-aab5-e22ddc261b60",
+                "progress": 0
+              },
+              {
+                "id": "570e18ee-6620-4078-b687-faa3e1ab1a52",
+                "title": "Lire Son",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d62012069ced15614a3?componentId=570e18ee-6620-4078-b687-faa3e1ab1a52",
+                "progress": 0
+              },
+              {
+                "id": "2f299e87-105c-488d-a053-b2bc181fcb99",
+                "title": "Pause Son",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d62012069ced15614a3?componentId=2f299e87-105c-488d-a053-b2bc181fcb99",
+                "progress": 0
+              },
+              {
+                "id": "63be8be1-7c6f-4c06-84cb-36b3aaa5ad64",
+                "title": "Pause Vidéo (copie)",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d62012069ced15614a3?componentId=63be8be1-7c6f-4c06-84cb-36b3aaa5ad64",
+                "progress": 0
+              },
+              {
+                "id": "ddce5f69-33fd-4eff-b5ec-f36d7df0657e",
+                "title": "Pause Vidéo (copie) (copie)",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d62012069ced15614a3?componentId=ddce5f69-33fd-4eff-b5ec-f36d7df0657e",
+                "progress": 0
+              }
+            ],
+            "progress": 0,
+            "timespent": 0
+          },
+          {
+            "id": "67502d4c012069ced15614a1",
+            "title": "Afficher, cacher (beta)",
+            "type": "scene",
+            "completed": "incomplete",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d4c012069ced15614a1",
+            "children": [
+              {
+                "id": "9e019b2c-43bd-4491-8acf-c8816cfd89c2",
+                "title": "Image",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d4c012069ced15614a1?componentId=9e019b2c-43bd-4491-8acf-c8816cfd89c2",
+                "progress": 0
+              },
+              {
+                "id": "b0ed3bd9-eb00-42e0-8a16-3cc6c730902d",
+                "title": "Bouton d'affichage",
+                "type": "component",
+                "completed": "passed",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d4c012069ced15614a1?componentId=b0ed3bd9-eb00-42e0-8a16-3cc6c730902d",
+                "progress": 100,
+                "timespent": 0
+              },
+              {
+                "id": "57dad3aa-9740-43c0-beab-c739ce33b802",
+                "title": "Bouton masquer",
+                "type": "component",
+                "completed": "passed",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/67502d4c012069ced15614a1?componentId=57dad3aa-9740-43c0-beab-c739ce33b802",
+                "progress": 100,
+                "timespent": 0
+              }
+            ],
+            "progress": 66.67,
+            "timespent": 0
+          },
+          {
+            "id": "6752b74f545bb697e5f8ece1",
+            "title": "Quiz",
+            "type": "scene",
+            "completed": "not attempted",
+            "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/6752b74f545bb697e5f8ece1",
+            "children": [
+              {
+                "id": "22441e9e-e0bf-4287-ba7e-913671728fb8",
+                "title": "QCU",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/6752b74f545bb697e5f8ece1?componentId=22441e9e-e0bf-4287-ba7e-913671728fb8",
+                "questions": [
+                  {
+                    "userAnswers": [],
+                    "choices": [
+                      {
+                        "id": "Choice_0",
+                        "isCorrect": false,
+                        "text": "Réponse 1"
+                      },
+                      {
+                        "id": "Choice_1",
+                        "isCorrect": true,
+                        "text": "Réponse 2"
+                      },
+                      {
+                        "id": "Choice_2",
+                        "isCorrect": false,
+                        "text": "Réponse 3"
+                      }
+                    ],
+                    "id": "Question_0",
+                    "title": "Question avec une seule réponse",
+                    "type": "unique"
+                  }
+                ],
+                "score": 0,
+                "scoremax": 1,
+                "timespent": 0,
+                "progress": 0
+              },
+              {
+                "id": "f38550e7-6959-4d96-bf24-5f76af305e0b",
+                "title": "QCM",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/6752b74f545bb697e5f8ece1?componentId=f38550e7-6959-4d96-bf24-5f76af305e0b",
+                "questions": [
+                  {
+                    "userAnswers": [],
+                    "choices": [
+                      {
+                        "id": "Choice_0",
+                        "isCorrect": true,
+                        "text": "Réponse 1"
+                      },
+                      {
+                        "id": "Choice_1",
+                        "isCorrect": true,
+                        "text": "Réponse 2"
+                      },
+                      {
+                        "id": "Choice_2",
+                        "isCorrect": false,
+                        "text": "Réponse 3"
+                      },
+                      {
+                        "id": "Choice_3",
+                        "isCorrect": false,
+                        "text": "Réponse 4"
+                      }
+                    ],
+                    "id": "Question_0",
+                    "title": "Question avec plusieurs bonnes réponses",
+                    "type": "multiple"
+                  }
+                ],
+                "score": 0,
+                "scoremax": 1,
+                "timespent": 0,
+                "progress": 0
+              },
+              {
+                "id": "cf2477c6-a1d7-4d3e-924b-8a3314b7cae7",
+                "title": "Quiz ordre",
+                "type": "component",
+                "completed": "not attempted",
+                "link": "https://kvt.keyveo.com/tours/67500438012069ced1561478/scenes/6752b74f545bb697e5f8ece1?componentId=cf2477c6-a1d7-4d3e-924b-8a3314b7cae7",
+                "questions": [
+                  {
+                    "userAnswers": [],
+                    "choices": [
+                      {
+                        "correctOrder": 0,
+                        "id": "Choice_0",
+                        "text": "Un"
+                      },
+                      {
+                        "correctOrder": 1,
+                        "id": "Choice_1",
+                        "text": "Deux"
+                      },
+                      {
+                        "correctOrder": 2,
+                        "id": "Choice_2",
+                        "text": "Trois"
+                      }
+                    ],
+                    "id": "Question_0",
+                    "title": "Mettre les chiffres dans le bon ordre",
+                    "type": "order"
+                  }
+                ],
+                "score": 0,
+                "scoremax": 1,
+                "timespent": 0,
+                "progress": 0
+              }
+            ],
+            "progress": 0,
+            "timespent": 5000
+          }
+        ],
+        "progress": 11.11,
+        "timespent": 5000
+      }
+    ],
+    "lastConsulted": {
+      "lastComponentId": "912da5e8-f29c-4c65-993f-5ac95bb885d7",
+      "lastSceneId": "67c7175e7df1980057cee41c"
+    }
+  }
+}

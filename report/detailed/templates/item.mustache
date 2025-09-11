@@ -1,0 +1,18 @@
+<li class="list-group-item border rounded {{type}}">
+    {{> deffinumreport_detailed/item_header}}
+
+    <div id="child-{{id}}" class="collapse show">
+    {{> deffinumreport_detailed/asset }}
+        {{#is_quiz}}
+            <div class="bg-light rounded p-2 mt-2">
+                {{#questions}}{{> deffinumreport_detailed/question_wrapper}}{{/questions}}
+            </div>
+        {{/is_quiz}}
+
+        {{#children}}
+            <ul class="list-group list-group-flush mt-1">
+                {{> deffinumreport_detailed/item }}
+            </ul>
+        {{/children}}
+    </div>
+</li>

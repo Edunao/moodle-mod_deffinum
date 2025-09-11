@@ -1,0 +1,66 @@
+{
+  "cmi": {
+    "completion_status": "passed",
+    "progress_measure": 1.0,
+    "session_time": "00:40:00",
+    "score": {
+      "raw": 88,
+      "max": 100
+    }
+  },
+  "detailed_progress": {
+    "structure": [
+      {
+        "id": "1",
+        "title": "Choix de l'outil",
+        "type": "quiz",
+        "completed": "passed",
+        "timespent": 745,
+        "progress": 100,
+        "nbtry": 4,
+        "score": 5,
+        "scoremax": 5,
+        "subtype": "unique",
+        "duration": 45,
+        "questions": [
+          {
+            "id": "T1",
+            "title": "Quel outil utiliser parmi ceux proposés ?",
+            "type": "unique",
+            "completed": true,
+            "choices": [
+              {
+                "id": "1",
+                "text": "Option 1",
+                "isCorrect": true
+              },
+              {
+                "id": "2",
+                "text": "Option 2",
+                "isCorrect": false
+              }
+            ],
+            "userAnswers": [
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Placer l'outil",
+        "type": "sequence",
+        "completed": "not attempted",
+        "timespent": 0,
+        "progress": 0,
+        "score": 0,
+        "scoremax": 0,
+        "nbtry": 0
+      }
+    ],
+    "lastConsulted": {
+      "lastComponentId": "912da5e8-f29c-4c65-993f-5ac95bb885d7",
+      "lastSceneId": "67c7175e7df1980057cee41c"
+    }
+  }
+}

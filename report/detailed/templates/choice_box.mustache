@@ -1,0 +1,20 @@
+<div class="d-inline-block position-relative text-center me-2 mb-2 border rounded p-2" style="min-width: 80px;" title="{{text}}">
+
+    {{#text}}
+        <div class="small">{{.}}</div>
+    {{/text}}
+
+    {{> deffinumreport_detailed/asset }}
+
+    {{#isCorrect}}
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success"
+              title="{{#str}} correct, deffinumreport_detailed {{/str}}">✔︎</span>
+    {{/isCorrect}}
+
+    {{#canviewcorrectorder}}
+    {{#correctOrder}}
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-info"
+              title="{{#str}} correct_order, deffinumreport_detailed {{/str}}">#{{correctOrder}}</span>
+    {{/correctOrder}}
+    {{/canviewcorrectorder}}
+</div>

@@ -1,0 +1,435 @@
+{
+  "cmi": {
+    "completion_status": "incomplete",
+    "progress_measure": 0.45,
+    "session_time": "00:25:30",
+    "score": { "raw": 75, "max": 100 }
+  },
+  "detailed_progress": {
+    "structure": [
+      {
+        "id": "vr_chap_1",
+        "title": "Chapitre VR : Introduction",
+        "type": "chapter",
+        "completed": "incomplete",
+        "level": 1,
+        "progress": 0.8,
+        "children": [
+          {
+            "id": "vr_seq_1a",
+            "title": "Séquence : Navigation de base",
+            "type": "sequence",
+            "completed": "passed",
+            "progress": 1,
+            "timespent": 120
+          },
+          {
+            "id": "vr_quiz_intro",
+            "title": "Quiz VR d’introduction",
+            "type": "quiz",
+            "completed": "passed",
+            "timespent": 300,
+            "progress": 1,
+            "nbtry": 1,
+            "score": 4,
+            "scoremax": 4,
+            "questions": [
+              {
+                "id": "q_true_false",
+                "type": "unique",
+                "completed": "passed",
+                "title": "Le soleil se lève à l’est.",
+                "userAnswers": ["true"],
+                "timespent": 20,
+                "choices": [
+                  {
+                    "id": "true",
+                    "text": "Image 1",
+                    "isCorrect": true,
+                    "asset": {
+                      "type": "image",
+                      "url": "https://picsum.photos/201"
+                    }
+                  },
+                  {
+                    "id": "false",
+                    "text": "Image 2",
+                    "isCorrect": false,
+                    "asset": {
+                      "type": "image",
+                      "url": "https://picsum.photos/400"
+                    }
+                  },
+                  {
+                    "id": "false",
+                    "text": "Image 3",
+                    "isCorrect": false,
+                    "asset": {
+                      "type": "image",
+                      "url": "https://picsum.photos/600"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "q_colors",
+                "type": "multiple",
+                "completed": "passed",
+                "title": "Couleurs primaires additives (plusieurs choix)",
+                "userAnswers": ["red", "green"],
+                "timespent": 45,
+                "choices": [
+                  {
+                    "id": "red",
+                    "text": "",
+                    "isCorrect": true,
+                    "asset": {
+                      "type": "audio",
+                      "url": "https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
+                    }
+                  },
+                  {
+                    "id": "green",
+                    "text": "Vert",
+                    "isCorrect": true,
+                    "asset": {
+                      "type": "audio",
+                      "url": "https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
+                    }
+                  },
+                  {
+                    "id": "yellow",
+                    "text": "Jaune",
+                    "isCorrect": false,
+                    "asset": {
+                      "type": "audio",
+                      "url": "https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "q_open",
+                "type": "open",
+                "completed": "passed",
+                "asset": {
+                  "type": "video",
+                  "url": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"
+                },
+                "userAnswers": [
+                  "Parce qu’il tourne sur lui-même et autour du Soleil."
+                ],
+                "timespent": 60
+              },
+              {
+                "id": "q_order",
+                "type": "order",
+                "completed": "passed",
+                "title": "Classe les étapes de la méthode scientifique.",
+                "userAnswers": ["obs", "hyp", "exp", "concl"],
+                "timespent": 35,
+                "choices": [
+                  { "id": "hyp",  "text": "Hypothèse",        "correctOrder": 2 },
+                  { "id": "obs",  "text": "Observation",      "correctOrder": 1 },
+                  { "id": "exp",  "text": "Expérimentation",  "correctOrder": 3 },
+                  { "id": "concl","text": "Conclusion",       "correctOrder": 4 }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sg_root_360",
+        "title": "Groupe de scènes 360",
+        "type": "scenesGroup",
+        "completed": "incomplete",
+        "progress": 0.4,
+        "children": [
+          {
+            "id": "scene_panorama",
+            "title": "Scène : Panorama général",
+            "type": "scene",
+            "completed": "passed",
+            "link": "https://example.com/panorama",
+            "progress": 1,
+            "timespent": 180,
+            "children": [
+              {
+                "id": "comp_info",
+                "title": "Composant d’information",
+                "type": "component",
+                "completed": "passed",
+                "progress": 1,
+                "timespent": 30
+              },
+              {
+                "id": "comp_quiz_scene",
+                "title": "Mini-quiz intégré",
+                "type": "quiz",
+                "completed": "passed",
+                "timespent": 60,
+                "score": 1,
+                "scoremax": 1,
+                "progress": 1,
+                "questions": [
+                  {
+                    "id": "q_video_asset",
+                    "type": "unique",
+                    "completed": "passed",
+                    "asset": {
+                      "type": "video",
+                      "url": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"
+                    },
+                    "userAnswers": ["yes"],
+                    "timespent": 15,
+                    "choices": [
+                      { "id": "yes", "text": "Oui", "isCorrect": true },
+                      { "id": "no",  "text": "Non", "isCorrect": false }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "scene_quiz_full",
+            "title": "Scène : Quiz complet",
+            "type": "scene",
+            "completed": "incomplete",
+            "progress": 0.2,
+            "timespent": 175,
+            "children": [
+              {
+                "id": "quiz_full_360",
+                "title": "Quiz 360 complet",
+                "type": "quiz",
+                "completed": "incomplete",
+                "timespent": 175,
+                "nbtry": 0,
+                "progress": 0.43,
+                "score": 3,
+                "scoremax": 7,
+                "questions": [
+                  {
+                    "id": "q_tf_asset_link",
+                    "type": "unique",
+                    "completed": "passed",
+                    "title": "La Terre est plate.",
+                    "userAnswers": ["faux_link"],
+                    "timespent": 10,
+                    "choices": [
+                      {
+                        "id": "vrai_link",
+                        "text": "Vrai",
+                        "isCorrect": false,
+                        "asset": {
+                          "type": "link",
+                          "url": "https://example.com/flat_earth_article"
+                        }
+                      },
+                      {
+                        "id": "faux_link",
+                        "text": "Faux",
+                        "isCorrect": true,
+                        "asset": {
+                          "type": "link",
+                          "url": "https://example.com/spherical_earth_article"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "q_multiple_assets",
+                    "type": "multiple",
+                    "completed": "not attempted",
+                    "title": "Sélectionne les langages de programmation.",
+                    "userAnswers": [],
+                    "timespent": 0,
+                    "choices": [
+                      {
+                        "id": "js",
+                        "text": "JavaScript",
+                        "isCorrect": true,
+                        "asset": {
+                          "type": "image",
+                          "url": "https://picsum.photos/202"
+                        }
+                      },
+                      {
+                        "id": "python",
+                        "text": "Python",
+                        "isCorrect": true,
+                        "asset": {
+                          "type": "image",
+                          "url": "https://picsum.photos/203"
+                        }
+                      },
+                      {
+                        "id": "html",
+                        "text": "HTML",
+                        "isCorrect": false,
+                        "asset": {
+                          "type": "image",
+                          "url": "https://picsum.photos/204"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "q_open_audio",
+                    "type": "open",
+                    "completed": "not attempted",
+                    "asset": {
+                      "type": "audio",
+                      "url": "https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
+                    },
+                    "userAnswers": [],
+                    "timespent": 0
+                  },
+                  {
+                    "id": "q_order_assets",
+                    "type": "order",
+                    "completed": "not attempted",
+                    "title": "Classe ces formats vidéo du moins compressé au plus compressé.",
+                    "userAnswers": [],
+                    "timespent": 0,
+                    "choices": [
+                      {
+                        "id": "raw",
+                        "text": "RAW",
+                        "correctOrder": 1,
+                        "asset": {
+                          "type": "image",
+                          "url": "https://picsum.photos/205"
+                        }
+                      },
+                      {
+                        "id": "prores",
+                        "text": "ProRes",
+                        "correctOrder": 2,
+                        "asset": {
+                          "type": "image",
+                          "url": "https://picsum.photos/206"
+                        }
+                      },
+                      {
+                        "id": "h264",
+                        "text": "H.264",
+                        "correctOrder": 3,
+                        "asset": {
+                          "type": "image",
+                          "url": "https://picsum.photos/207"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "q_choice_mixed_assets",
+                    "type": "unique",
+                    "completed": "passed",
+                    "title": "Choisis la vidéo parmi ces médias.",
+                    "asset": {
+                      "type": "audio",
+                      "url": "https://samplelib.com/lib/preview/mp3/sample-6s.mp3"
+                    },
+                    "userAnswers": ["ch_video"],
+                    "timespent": 25,
+                    "choices": [
+                      {
+                        "id": "ch_audio",
+                        "text": "Réponse audio",
+                        "isCorrect": false,
+                        "asset": {
+                          "type": "audio",
+                          "url": "https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
+                        }
+                      },
+                      {
+                        "id": "ch_video",
+                        "text": "Réponse vidéo",
+                        "isCorrect": true,
+                        "asset": {
+                          "type": "video",
+                          "url": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"
+                        }
+                      },
+                      {
+                        "id": "ch_image",
+                        "text": "Réponse image",
+                        "isCorrect": false,
+                        "asset": {
+                          "type": "image",
+                          "url": "https://picsum.photos/208"
+                        }
+                      },
+                      {
+                        "id": "ch_link",
+                        "text": "Réponse lien",
+                        "isCorrect": false,
+                        "asset": {
+                          "type": "link",
+                          "url": "https://example.com/random"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "q_multiple_mixed_media",
+                    "type": "multiple",
+                    "completed": "passed",
+                    "title": "Sélectionne tous les éléments multimédias qui NE sont PAS des images.",
+                    "userAnswers": ["vid_asset", "aud_asset", "lnk_asset"],
+                    "timespent": 30,
+                    "choices": [
+                      {
+                        "id": "img_asset",
+                        "text": "",
+                        "isCorrect": false,
+                        "asset": {
+                          "type": "image",
+                          "url": "https://picsum.photos/209"
+                        }
+                      },
+                      {
+                        "id": "vid_asset",
+                        "text": "",
+                        "isCorrect": true,
+                        "asset": {
+                          "type": "video",
+                          "url": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4"
+                        }
+                      },
+                      {
+                        "id": "aud_asset",
+                        "text": "",
+                        "isCorrect": true,
+                        "asset": {
+                          "type": "audio",
+                          "url": "https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
+                        }
+                      },
+                      {
+                        "id": "lnk_asset",
+                        "text": "",
+                        "isCorrect": true,
+                        "asset": {
+                          "type": "link",
+                          "url": "https://example.com/not_image"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "lastConsulted": {
+      "lastSceneId": "scene_quiz_full",
+      "lastComponentId": "quiz_full_360"
+    }
+  }
+}

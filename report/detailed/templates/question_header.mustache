@@ -1,0 +1,21 @@
+<div class="d-flex align-items-center gap-2 toggle-line" title="#{{id}} - {{qtitle}}">
+
+    <div class="status-icon-container">
+        {{#is_unique}}<i class="fa fa-dot-circle mt-1" aria-hidden="true"></i>{{/is_unique}}
+        {{#is_multiple}}<i class="fa fa-check-square mt-1" aria-hidden="true"></i>{{/is_multiple}}
+        {{#is_open}}<i class="fa fa-pen mt-1" aria-hidden="true"></i>{{/is_open}}
+        {{#is_order}}<i class="fa fa-sort-amount-down mt-1" aria-hidden="true"></i>{{/is_order}}
+    </div>
+
+    <div class="completion-indicator-container d-flex align-items-center">
+        <div class="completion-indicator">
+            {{> deffinumreport_detailed/completion_indicator }}
+        </div>
+    </div>
+
+    <div class="element-title-container">
+        <span class="bold text-primary">{{qtitle}}</span>
+    </div>
+
+</div>
+

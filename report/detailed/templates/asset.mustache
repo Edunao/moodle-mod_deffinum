@@ -1,0 +1,12 @@
+<div class="asset-container mt-2">
+    {{#asset_image}}<img src="{{asset.url}}" class="img-thumbnail mb-2" alt="Question image" />{{/asset_image}}
+    {{#asset_audio}}<audio controls class="mb-2"><source src="{{asset.url}}" type="audio/mpeg" /></audio>{{/asset_audio}}
+    {{#asset_video}}<video controls class="mb-2" width="320"><source src="{{asset.url}}" type="video/mp4" /></video>{{/asset_video}}
+    {{#asset_link}}
+        <div class="mb-2">
+            <a href="{{asset.url}}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-secondary">
+                <i class="fa fa-link" aria-hidden="true"></i>
+            </a>
+        </div>
+    {{/asset_link}}
+</div>

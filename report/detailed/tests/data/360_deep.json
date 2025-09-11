@@ -1,0 +1,358 @@
+{
+  "cmi": {
+    "completion_status": "incomplete",
+    "progress_measure": 0.55,
+    "session_time": "00:22:22",
+    "score": {
+      "raw": 50,
+      "max": 100
+    }
+  },
+  "detailed_progress": {
+    "structure": [
+      {
+        "id": "sg_77ee4c14",
+        "type": "scenesGroup",
+        "title": "Niveau 0 – Groupe initial",
+        "completed": "passed",
+        "progress": 90,
+        "children": [
+          {
+            "id": "scene_53ce9c0e",
+            "type": "scene",
+            "title": "Niveau 1 – Scène",
+            "completed": "incomplete",
+            "progress": 85,
+            "children": [
+              {
+                "id": "sg_89666f12",
+                "type": "scenesGroup",
+                "title": "Niveau 2 – Groupe",
+                "completed": "passed",
+                "progress": 92,
+                "children": [
+                  {
+                    "id": "scene_14f33f9b",
+                    "type": "scene",
+                    "title": "Niveau 3 – Scène",
+                    "completed": "passed",
+                    "progress": 65,
+                    "children": [
+                      {
+                        "id": "sg_5124fd59",
+                        "type": "scenesGroup",
+                        "title": "Niveau 4 – Groupe",
+                        "completed": "passed",
+                        "progress": 85,
+                        "children": [
+                          {
+                            "id": "quiz_f1b149aa",
+                            "type": "quiz",
+                            "title": "Quiz niveau 4",
+                            "completed": "passed",
+                            "progress": 100,
+                            "timespent": 245,
+                            "nbtry": 1,
+                            "score": 4,
+                            "scoremax": 4,
+                            "questions": [
+                              {
+                                "id": "q_a5877a97",
+                                "type": "unique",
+                                "title": "Quelle planète est connue comme la planète rouge ?",
+                                "completed": "passed",
+                                "userAnswers": [
+                                  "mars"
+                                ],
+                                "choices": [
+                                  {
+                                    "id": "terre",
+                                    "text": "Terre",
+                                    "isCorrect": false
+                                  },
+                                  {
+                                    "id": "mars",
+                                    "text": "Mars",
+                                    "isCorrect": true
+                                  },
+                                  {
+                                    "id": "venus",
+                                    "text": "Vénus",
+                                    "isCorrect": false
+                                  },
+                                  {
+                                    "id": "jupiter",
+                                    "text": "Jupiter",
+                                    "isCorrect": false
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "q_dc6fd268",
+                                "type": "multiple",
+                                "title": "Formats d’image courants (plusieurs choix)",
+                                "completed": "passed",
+                                "userAnswers": [
+                                  "png",
+                                  "jpeg"
+                                ],
+                                "choices": [
+                                  {
+                                    "id": "mp4",
+                                    "text": "MP4",
+                                    "isCorrect": false
+                                  },
+                                  {
+                                    "id": "png",
+                                    "text": "PNG",
+                                    "isCorrect": true
+                                  },
+                                  {
+                                    "id": "wav",
+                                    "text": "WAV",
+                                    "isCorrect": false
+                                  },
+                                  {
+                                    "id": "jpeg",
+                                    "text": "JPEG",
+                                    "isCorrect": true
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "q_75e0ffa1",
+                                "type": "open",
+                                "title": "Langage de balisage des pages web ?",
+                                "completed": "passed",
+                                "userAnswers": [
+                                  "HTML"
+                                ]
+                              },
+                              {
+                                "id": "q_43a8a951",
+                                "type": "order",
+                                "title": "Classe ces tailles de stockage du plus petit au plus grand.",
+                                "completed": "passed",
+                                "userAnswers": [
+                                  "ko",
+                                  "mo",
+                                  "go",
+                                  "to"
+                                ],
+                                "choices": [
+                                  {
+                                    "id": "ko",
+                                    "text": "Kilo‑octet",
+                                    "correctOrder": 1
+                                  },
+                                  {
+                                    "id": "mo",
+                                    "text": "Méga‑octet",
+                                    "correctOrder": 2
+                                  },
+                                  {
+                                    "id": "go",
+                                    "text": "Giga‑octet",
+                                    "correctOrder": 3
+                                  },
+                                  {
+                                    "id": "to",
+                                    "text": "Téra‑octet",
+                                    "correctOrder": 4
+                                  }
+                                ]
+                              }
+                            ],
+                            "children": []
+                          },
+                          {
+                            "id": "scene_de109c75",
+                            "type": "scene",
+                            "title": "Niveau 5 – Scène",
+                            "completed": "passed",
+                            "progress": 63,
+                            "children": [
+                              {
+                                "id": "sg_2be487f7",
+                                "type": "scenesGroup",
+                                "title": "Niveau 6 – Groupe",
+                                "completed": "passed",
+                                "progress": 75,
+                                "children": [
+                                  {
+                                    "id": "scene_16afd4ca",
+                                    "type": "scene",
+                                    "title": "Niveau 7 – Scène",
+                                    "completed": "passed",
+                                    "progress": 83,
+                                    "children": [
+                                      {
+                                        "id": "sg_4b9e454f",
+                                        "type": "scenesGroup",
+                                        "title": "Niveau 8 – Groupe",
+                                        "completed": "incomplete",
+                                        "progress": 100,
+                                        "children": [
+                                          {
+                                            "id": "quiz_7413a9c0",
+                                            "type": "quiz",
+                                            "title": "Quiz niveau 8",
+                                            "completed": "passed",
+                                            "progress": 100,
+                                            "timespent": 279,
+                                            "nbtry": 1,
+                                            "score": 4,
+                                            "scoremax": 4,
+                                            "questions": [
+                                              {
+                                                "id": "q_0f28051a",
+                                                "type": "unique",
+                                                "title": "Quelle planète est connue comme la planète rouge ?",
+                                                "completed": "passed",
+                                                "userAnswers": [
+                                                  "mars"
+                                                ],
+                                                "choices": [
+                                                  {
+                                                    "id": "terre",
+                                                    "text": "Terre",
+                                                    "isCorrect": false
+                                                  },
+                                                  {
+                                                    "id": "mars",
+                                                    "text": "Mars",
+                                                    "isCorrect": true
+                                                  },
+                                                  {
+                                                    "id": "venus",
+                                                    "text": "Vénus",
+                                                    "isCorrect": false
+                                                  },
+                                                  {
+                                                    "id": "jupiter",
+                                                    "text": "Jupiter",
+                                                    "isCorrect": false
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "id": "q_da78453c",
+                                                "type": "multiple",
+                                                "title": "Formats d’image courants (plusieurs choix)",
+                                                "completed": "passed",
+                                                "userAnswers": [
+                                                  "png",
+                                                  "jpeg"
+                                                ],
+                                                "choices": [
+                                                  {
+                                                    "id": "mp4",
+                                                    "text": "MP4",
+                                                    "isCorrect": false
+                                                  },
+                                                  {
+                                                    "id": "png",
+                                                    "text": "PNG",
+                                                    "isCorrect": true
+                                                  },
+                                                  {
+                                                    "id": "wav",
+                                                    "text": "WAV",
+                                                    "isCorrect": false
+                                                  },
+                                                  {
+                                                    "id": "jpeg",
+                                                    "text": "JPEG",
+                                                    "isCorrect": true
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "id": "q_1263338a",
+                                                "type": "open",
+                                                "title": "Langage de balisage des pages web ?",
+                                                "completed": "passed",
+                                                "userAnswers": [
+                                                  "HTML"
+                                                ]
+                                              },
+                                              {
+                                                "id": "q_e8c167cd",
+                                                "type": "order",
+                                                "title": "Classe ces tailles de stockage du plus petit au plus grand.",
+                                                "completed": "passed",
+                                                "userAnswers": [
+                                                  "ko",
+                                                  "mo",
+                                                  "go",
+                                                  "to"
+                                                ],
+                                                "choices": [
+                                                  {
+                                                    "id": "ko",
+                                                    "text": "Kilo‑octet",
+                                                    "correctOrder": 1
+                                                  },
+                                                  {
+                                                    "id": "mo",
+                                                    "text": "Méga‑octet",
+                                                    "correctOrder": 2
+                                                  },
+                                                  {
+                                                    "id": "go",
+                                                    "text": "Giga‑octet",
+                                                    "correctOrder": 3
+                                                  },
+                                                  {
+                                                    "id": "to",
+                                                    "text": "Téra‑octet",
+                                                    "correctOrder": 4
+                                                  }
+                                                ]
+                                              }
+                                            ],
+                                            "children": []
+                                          },
+                                          {
+                                            "id": "scene_5646318c",
+                                            "type": "scene",
+                                            "title": "Niveau 9 – Scène finale",
+                                            "completed": "passed",
+                                            "progress": 100,
+                                            "children": [
+                                              {
+                                                "id": "comp_b00a83b5",
+                                                "type": "component",
+                                                "title": "Niveau 10 – Panorama final",
+                                                "completed": "passed",
+                                                "progress": 100,
+                                                "timespent": 180,
+                                                "asset": {
+                                                  "type": "image",
+                                                  "url": "https://picsum.photos/200"
+                                                },
+                                                "children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
