@@ -1,5 +1,25 @@
+#page-mod-deffinum-report table#attempts td.c3 a {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #8f3e47;
+    color: #fff !important;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+#page-mod-deffinum-report table#attempts td.c3 a:hover {
+    background-color: #292C2F;
+    color: white;
+}
 #detailed-progress-report {
     font-size: 1rem;
+}
+#detailed-progress-report .badge.bg-success {
+    background-color: #57C15D !important;
+}
+#detailed-progress-report .badge.bg-info {
+    background-color: #00BEDB !important;
 }
 #detailed-progress-report .gap-0 {
     gap: 0;

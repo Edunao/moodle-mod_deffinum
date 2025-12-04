@@ -180,6 +180,16 @@ final class json_parser {
             $q['qtitle'] = $q['title'];
             unset($q['title']);
         }
+
+        if (!isset($q['completed']) || $q['completed'] === '') {
+            $q['completed'] = 'not attempted';
+        }
+        $completion = $q['completed'];
+        $q['str_completed'] = get_string(str_replace(' ', '', $completion), 'deffinumreport_detailed');
+        $q['completion_passed'] = $completion === 'passed';
+        $q['completion_incomplete'] = $completion === 'incomplete';
+        $q['completion_notattempted'] = $completion === 'not attempted';
+
         $q['is_unique']   = $q['type'] === 'unique';
         $q['is_multiple'] = $q['type'] === 'multiple';
         $q['is_open']     = $q['type'] === 'open';

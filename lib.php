@@ -160,6 +160,18 @@ function deffinum_add_instance($deffinum, $mform=null) {
                 }
             }
             break;
+        case DEFFINUM_CUSTOMTYPE_VIRTUAL_REALITY:
+            // Store the resource and verify.
+            if (!empty($deffinum->vrurl)) {
+                $record->customdata = $deffinum->vrurl;
+            }
+            break;
+        case DEFFINUM_CUSTOMTYPE_360:
+            // Store the resource and verify.
+            if (!empty($deffinum->visiturl)) {
+                $record->customdata = $deffinum->visiturl;
+            }
+            break;
     }
     // END DEFFINUM CUSTOMIZATION.
 

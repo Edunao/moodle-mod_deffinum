@@ -226,10 +226,10 @@ if (has_capability('mod/deffinum:viewreport', $contextmodule)) {
     ]);
     $linktext = get_string("details", "mod_deffinum");
     $linkhtml = <<<HTML
-                <button class="btn btn-secondary custom-monitor-link-container mr-1">
-                    <a href="$linkurl" class="custom-monitor-link">$linktext</a>
-                </button>
-            HTML;
+        <a href="$linkurl" class="btn btn-secondary custom-monitor-link-container mr-1">
+            $linktext
+        </a>
+    HTML;
     echo $linkhtml;
     echo '<hr>';
 }
@@ -304,7 +304,9 @@ switch ($deffinum->customtype) {
                  . '&scoid=' . $scoid
                  . '&host=' . urlencode($CFG->wwwroot);
         // Display a direct link to the VR resource.
-        echo '<a href="' . $qrurl . '">' . $qrurl . '</a>';
+        $downloadlink = '<a href="' . $qrurl . '">' . $qrurl . '</a>';
+        echo '<p>' . get_string('virtual_reality_instructions', 'mod_deffinum', (object) [
+            'downloadlink' => $downloadlink, 'scoid' => $scoid]). '</p>';
         break;
 }
 // END DEFFINUM CUSTOMIZATION.

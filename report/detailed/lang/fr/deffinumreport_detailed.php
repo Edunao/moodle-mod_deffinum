@@ -43,11 +43,13 @@ $string['openresource'] = 'Ouvrir la ressource originale';
 $string['expandcollapse'] = 'Déplier ou replier la section';
 $string['showquizdetail'] = 'Afficher les détails du quiz';
 $string['correct'] = 'correcte';
+$string['completed'] = 'Complété';
 $string['incomplete'] = 'Incomplet';
 $string['notattempted'] = 'Non tenté';
 $string['passed'] = 'Réussi';
 $string['print'] = 'Imprimer';
 $string['status'] = 'statut';
+$string['openlink'] = 'Ouvrir le lien associé';
 
 $string['detailed:canviewtimespent'] = 'Peut voir le temps passé dans le rapport détaillé';
 $string['detailed:reportcanviewscore'] = 'Peut voir le score dans le rapport détaillé';

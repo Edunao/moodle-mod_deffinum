@@ -475,6 +475,7 @@ $string['customtype_360'] = '360';
 $string['customtype_augmented_reality'] = 'Augmented reality';
 $string['customtype_virtual_reality'] = 'Virtual reality';
 $string['customtype_serious_game'] = 'Serious game';
+$string['virtual_reality_instructions'] = 'Here is the download link for the Virtual Reality module to place in your headset {$a->downloadlink}.<br>Once the module is launched, you will be asked to log in with your Moodle credentials by entering the following code <strong style="font-size: 120%">{$a->scoid}</strong> so that your progress can be tracked.';
 $string['visiturl'] = 'Visit url';
 $string['domainnotallowed'] = 'Domain not allowed';
 $string['privacy:metadata:deffinumuserjsonra'] = 'User Json info for RA';

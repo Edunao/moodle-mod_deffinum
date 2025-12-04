@@ -27,7 +27,7 @@
             "id": "T1",
             "title": "Quel outil utiliser parmi ceux proposés ?",
             "type": "unique",
-            "completed": true,
+            "completed": "passed",
             "choices": [
               {
                 "id": "1",

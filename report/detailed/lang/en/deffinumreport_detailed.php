@@ -44,10 +44,12 @@ $string['expandcollapse'] = 'Expand or collapse section';
 $string['showquizdetail'] = 'Show quiz details';
 $string['correct'] = 'correct';
 $string['incomplete'] = 'Incomplete';
+$string['completed'] = 'Completed';
 $string['notattempted'] = 'Not attempted';
 $string['passed'] = 'Passed';
 $string['print'] = 'Print';
 $string['status'] = 'Status';
+$string['openlink'] = 'Open the associated link';
 
 $string['detailed:canviewtimespent'] = 'Can view time spent in detailed report';
 $string['detailed:canviewscore'] = 'Can view score in detailed report';

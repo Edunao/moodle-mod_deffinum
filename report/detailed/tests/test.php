@@ -81,11 +81,6 @@ if ($relpath !== '') {
     } else if (!is_readable($fullpath)) {
         echo $OUTPUT->notification('File not readable', 'notifyproblem');
     } else {
-        echo html_writer::tag(
-            'h3',
-            get_string('renderingfile', 'deffinumreport_detailed', $relpath)
-        );
-
         try {
             $raw = file_get_contents($fullpath);
             $data = json_decode($raw, true, 512, JSON_THROW_ON_ERROR);
@@ -135,6 +130,7 @@ if ($relpath !== '') {
                 $templatecontext[$cap] = true;
             }
 
+            $templatecontext['title'] = get_string('renderingfile', 'deffinumreport_detailed', $relpath);
             echo $OUTPUT->render_from_template('deffinumreport_detailed/report', $templatecontext);
 
             // Aide développeur : contenus à insérer en BDD.
