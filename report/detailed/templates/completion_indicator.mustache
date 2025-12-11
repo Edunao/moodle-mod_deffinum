@@ -2,7 +2,7 @@
     <span title="{{#str}} passed, deffinumreport_detailed {{/str}}">&#9989;</span>
 {{/completion_passed}}
 {{#completion_incomplete}}
-    <span title="{{#str}} incomplete, deffinumreport_detailed {{/str}}">&#10060;</span>
+    <span title="{{#str}} incomplete, deffinumreport_detailed {{/str}}">&#128992;</span>
 {{/completion_incomplete}}
 {{#completion_notattempted}}
     <span title="{{#str}} notattempted, deffinumreport_detailed {{/str}}" style="
@@ -12,3 +12,6 @@
         border: 1.5px dashed #ccc;
     "></span>
 {{/completion_notattempted}}
+{{#completion_failed}}
+    <span title="{{#str}} failed, deffinumreport_detailed {{/str}}">&#10060;</span>
+{{/completion_failed}}

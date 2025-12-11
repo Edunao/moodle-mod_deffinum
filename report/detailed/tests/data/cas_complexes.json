@@ -31,8 +31,8 @@
             "timespent": 300,
             "progress": 1,
             "nbtry": 1,
-            "score": 4,
-            "scoremax": 4,
+            "score": 5,
+            "scoremax": 8,
             "questions": [
               {
                 "id": "q_true_false",
@@ -106,6 +106,65 @@
                       "url": "https://samplelib.com/lib/preview/mp3/sample-3s.mp3"
                     }
                   }
+                ]
+              },
+              {
+                "id": "q_fruit1",
+                "type": "unique",
+                "completed": "passed",
+                "title": "Quel fruit contient de la vitamine C ?",
+                "userAnswers": ["orange"],
+                "timespent": 18,
+                "choices": [
+                  { "id": "orange", "text": "Orange", "isCorrect": true },
+                  { "id": "pomme", "text": "Pomme", "isCorrect": false },
+                  { "id": "banane", "text": "Banane", "isCorrect": false }
+                ]
+              },
+              {
+                "id": "q_animals2",
+                "type": "multiple",
+                "completed": "failed",
+                "title": "Lesquels de ces animaux sont des mammifères ?",
+                "userAnswers": ["dauphin", "crocodile", "chauvesouris"],
+                "timespent": 26,
+                "choices": [
+                  {
+                    "id": "dauphin",
+                    "text": "Le dauphin",
+                    "isCorrect": true
+                  },
+                  {
+                    "id": "crocodile",
+                    "text": "Le crocodile",
+                    "isCorrect": false
+                  },
+                  {
+                    "id": "chauvesouris",
+                    "text": "La chauve-souris",
+                    "isCorrect": true
+                  }
+                ]
+              },
+              {
+                "id": "q_password",
+                "type": "open",
+                "completed": "not attempted",
+                "title": "Explique à quoi sert un mot de passe.",
+                "userAnswers": [],
+                "timespent": 0
+              },
+              {
+                "id": "q_gateau",
+                "type": "order",
+                "completed": "incomplete",
+                "title": "Classe ces étapes de fabrication d’un gâteau.",
+                "userAnswers": ["melanger"],
+                "timespent": 12,
+                "choices": [
+                  { "id": "ingredients", "text": "Préparer les ingrédients", "correctOrder": 1 },
+                  { "id": "melanger", "text": "Mélanger", "correctOrder": 2 },
+                  { "id": "cuire", "text": "Cuire", "correctOrder": 3 }
                 ]
               },
               {

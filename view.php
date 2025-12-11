@@ -220,17 +220,29 @@ if (!empty($deffinum->popup)) {
 // Add link to monitor logs.
 $scoid = $DB->get_field('deffinum_scoes', 'id', ['deffinum' => $deffinum->id, 'parent' => '/', 'sortorder' => 1]);
 if (has_capability('mod/deffinum:viewreport', $contextmodule)) {
-    $linkurl = new moodle_url('/mod/deffinum/monitor_logs.php', [
-            'scoid' => $scoid,
-            'cm' => $cm->id,
-    ]);
-    $linktext = get_string("details", "mod_deffinum");
-    $linkhtml = <<<HTML
-        <a href="$linkurl" class="btn btn-secondary custom-monitor-link-container mr-1">
-            $linktext
-        </a>
-    HTML;
-    echo $linkhtml;
+    $links = [
+        [
+            'url' => new moodle_url('/mod/deffinum/monitor_logs.php', [
+                'scoid' => $scoid,
+                'cm' => $cm->id,
+            ]),
+            'text' => get_string('details', 'mod_deffinum'),
+            'class' => 'btn btn-secondary custom-monitor-link-container mr-1',
+        ],
+        [
+            'url' => new moodle_url('/mod/deffinum/report.php', [
+                'id' => $cm->id,
+                'mode' => 'detailed',
+            ]),
+            'text' => get_string('pluginname', 'deffinumreport_detailed'),
+            'class' => 'btn btn-secondary custom-deffinum-report-detailed-link-container ml-1',
+        ],
+    ];
+
+    foreach ($links as $link) {
+        echo html_writer::link($link['url'], $link['text'], ['class' => $link['class']]);
+    }
+
     echo '<hr>';
 }
 

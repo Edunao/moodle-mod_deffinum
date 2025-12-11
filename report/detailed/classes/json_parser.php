@@ -134,6 +134,7 @@ final class json_parser {
         $elem['completion_passed']      = $completion === 'passed';
         $elem['completion_incomplete']  = $completion === 'incomplete';
         $elem['completion_notattempted'] = $completion === 'not attempted';
+        $elem['completion_failed'] = $completion === 'failed';
 
         // Asset flags.
         self::add_asset_flags($elem);
@@ -175,12 +176,14 @@ final class json_parser {
         if (!in_array($q['type'], self::ALLOWED_QUESTION_TYPES, true)) {
             throw new \coding_exception("Invalid question type '{$q['type']}' in quiz $quizid");
         }
-        $q['title'] = !isset($q['title']) || empty($q['title']) ? get_string('media', 'deffinumreport_detailed') : $q['title'];
-        if (isset($q['title'])) {
-            $q['qtitle'] = $q['title'];
-            unset($q['title']);
-        }
 
+        // Title.
+        $q['title'] = !isset($q['title']) || empty($q['title']) ?
+            get_string('media', 'deffinumreport_detailed') : $q['title'];
+        $q['qtitle'] = $q['title'];
+        unset($q['title']);
+
+        // Completion.
         if (!isset($q['completed']) || $q['completed'] === '') {
             $q['completed'] = 'not attempted';
         }
@@ -189,7 +192,10 @@ final class json_parser {
         $q['completion_passed'] = $completion === 'passed';
         $q['completion_incomplete'] = $completion === 'incomplete';
         $q['completion_notattempted'] = $completion === 'not attempted';
+        $q['completion_failed'] = $completion === 'failed';
 
+        // Type.
+        $q['str_type']    = get_string('plaintext_' . $q['type'], 'deffinumreport_detailed');
         $q['is_unique']   = $q['type'] === 'unique';
         $q['is_multiple'] = $q['type'] === 'multiple';
         $q['is_open']     = $q['type'] === 'open';
