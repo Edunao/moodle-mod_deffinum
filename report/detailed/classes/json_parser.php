@@ -132,6 +132,7 @@ final class json_parser {
         $completion = $elem['completed'];
         $elem['str_completed'] = get_string(str_replace(' ', '', $completion), 'deffinumreport_detailed');
         $elem['completion_passed']      = $completion === 'passed';
+        $elem['completion_completed']   = $completion === 'completed';
         $elem['completion_incomplete']  = $completion === 'incomplete';
         $elem['completion_notattempted'] = $completion === 'not attempted';
         $elem['completion_failed'] = $completion === 'failed';
@@ -190,6 +191,7 @@ final class json_parser {
         $completion = $q['completed'];
         $q['str_completed'] = get_string(str_replace(' ', '', $completion), 'deffinumreport_detailed');
         $q['completion_passed'] = $completion === 'passed';
+        $q['completion_completed'] = $completion === 'completed';
         $q['completion_incomplete'] = $completion === 'incomplete';
         $q['completion_notattempted'] = $completion === 'not attempted';
         $q['completion_failed'] = $completion === 'failed';

@@ -234,7 +234,7 @@ if (has_capability('mod/deffinum:viewreport', $contextmodule)) {
                 'id' => $cm->id,
                 'mode' => 'detailed',
             ]),
-            'text' => get_string('pluginname', 'deffinumreport_detailed'),
+            'text' => get_string('accessdetailedreports', 'deffinumreport_detailed'),
             'class' => 'btn btn-secondary custom-deffinum-report-detailed-link-container ml-1',
         ],
     ];
@@ -316,7 +316,7 @@ switch ($deffinum->customtype) {
                  . '&scoid=' . $scoid
                  . '&host=' . urlencode($CFG->wwwroot);
         // Display a direct link to the VR resource.
-        $downloadlink = '<a href="' . $qrurl . '">' . $qrurl . '</a>';
+        $downloadlink = '<a style="text-decoration: underline;" href="' . $qrurl . '">' . get_string('virtual_reality_instructions_link','mod_deffinum') . '</a>';
         echo '<p>' . get_string('virtual_reality_instructions', 'mod_deffinum', (object) [
             'downloadlink' => $downloadlink, 'scoid' => $scoid]). '</p>';
         break;
