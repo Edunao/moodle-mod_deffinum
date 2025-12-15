@@ -23,7 +23,7 @@
  */
 
 $string['pluginname'] = 'Detailed report';
-$string['accessdetailedreports'] = 'Accéder aux rapports détaillés';
+$string['accessdetailedreports'] = 'Access detailed reports';
 
 $string['selectdatafile'] = 'Choose a dataset file to preview';
 $string['renderingfile'] = 'Rendering file: {$a}';
